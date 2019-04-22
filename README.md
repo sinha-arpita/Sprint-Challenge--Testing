@@ -1,4 +1,24 @@
 # Sprint Challenge: Testing - TDD Video Games
+Question  And Answers
+Q)In Jest, what are the differences between describe() and it() globals, and what are good uses for them?
+Ans)describe breaks our test suite into components. Depending on our test strategy, we might have a describe for each function in our class, each module of our plugin, or each user-facing piece of functionality.
+
+we can also nest describes to further subdivide the suite.
+
+it is where we perform individual tests. we should be able to describe each test like a little sentence, such as "it calculates the area when the radius is set". We shouldn't be able to subdivide tests further-- if you feel like we need to, use describe instead.
+
+What is the point of Test Driven Development? What do you think about this approach?
+Ans)Test-driven development. Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved to pass the new tests, only.
+TDD is considered good because of several reasons. First, it allows  to create a testable software because we are using tests to drive the development. Rather than doing development and worrying about the testing after, testing is at the forefront, guiding our development. Creating an easier to test application.
+
+Mention three types of automated tests.
+unit test, integration test, regression test
+
+
+
+
+
+
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored Testing. During this Sprint, you studied Introduction to Automated Testing, Testing React Applications & Testing Web APIs. In your challenge this week, you will demonstrate proficiency by creating an application that follows the TDD pattern to create a simple Web API using Node.js and Express.
 
